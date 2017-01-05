@@ -1,0 +1,28 @@
+{
+  "name": "nsq-project",
+  "version": "1.0.0",
+  "description": "NSQ example using two node.js servers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app1.js && node app2.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/doron2402/nsq-node-example.git"
+  },
+  "keywords": [
+    "Node",
+    "NSQ",
+    "Example"
+  ],
+  "author": "Doron Segal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/doron2402/nsq-node-example/issues"
+  },
+  "homepage": "https://github.com/doron2402/nsq-node-example#readme",
+  "dependencies": {
+    "nsqueue": "https://github.com/doron2402/node-nsqueue"
+  }
+}
